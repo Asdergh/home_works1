@@ -27,7 +27,11 @@ void array_2d(){
 }
 
 int main(){
-    char num = "123";
-    printf("the value: %i\n", atoi(num));
-    return 0;
+    int array[100][100];
+    for(int i = 0; i < 100; i++){
+        for(int j = 0; j < 100; j++){
+            array[i][j] = rand() % 45;
+        }
+    }
+    matrix_printer(array);
 }
