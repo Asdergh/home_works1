@@ -12,6 +12,8 @@ bool isFirstBigger(int, int);
 void counter(int*);
 int maxDifference(int*);
 
+
+
 int main() {
 	// setlocale(LC_ALL, "rus");
 	int a = 4;
