@@ -56,6 +56,7 @@ void simbols_distribution(char string[COLS]){
         }
     }
     printf("count of G sibmols: %i ------- count of S simbols", counter_g, counter_s);
+    free(simbols);
 }
 
 int main(){
@@ -72,6 +73,8 @@ int main(){
     char string_01[COLS];
     scanf("%s", string_01);
     simbols_distribution(string_01);
+    free(string_01);
+    free(array);
     
 
 }
